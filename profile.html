@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile </title>
+    <link rel="icon" href="icons8-favicon-94.png" type="image/x-icon" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/dash.css" />
+    <!-- google foont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- aso -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page d-flex mb-0">
+      <!-- start dashboard  -->
+
+      <div class="dashboard">
+        <h3 class="text-center mb-md-5 pb-4 pt-3 position-relative">Dash</h3>
+        <div class="links">
+          <ul class="p-2 m-0">
+            <li class="p-2 ps-md-3">
+              <a href="index.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-regular fa-chart-bar fa-fw me-3 fs-6"></i
+                ><span>Dashboard</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="setting.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-solid fa-gear fa-fw me-3 fs-6"></i
+                ><span>Setting</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="profile.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-regular fa-user fa-fw me-3 fs-6"></i
+                ><span>Profile</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="projects.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-solid fa-diagram-project fa-fw me-3 fs-6"></i
+                ><span>Projects</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="courses.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-solid fa-graduation-cap fa-fw me-3 fs-6"></i
+                ><span>Courses</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="friends.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-regular fa-circle-user fa-fw me-3 fs-6"></i
+                ><span>Friends</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="files.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-regular fa-file fa-fw me-3 fs-6"></i
+                ><span>Files</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="plans.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-regular fa-credit-card fa-fw me-3 fs-6"></i
+                ><span>Plans</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- end dashboard  -->
+
+      <div class="content" style="background-color: #f1f5f9;">
+        <!-- 
+            
+            start header -->
+        <header
+          class="d-flex justify-content-between align-items-center p-3 bg-white"
+        >
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              class="ps-5 p-2 rounded-2"
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Type a Keyword"
+            />
+          </div>
+          <div class="icons d-flex align-items-center gap-2">
+            <div class="bell"><i class="fa-regular fa-bell fa-lg"></i></div>
+            <img src="image/avatar.png" alt="" />
+          </div>
+        </header>
+        <!-- end header -->
+        <!-- start headline -->
+        <div class="headline p-3 mb-3">
+          <h3 class="fw-bold fs-2 p-2">Profile</h3>
+        </div>
+        <!-- start row 1 -->
+        <div class="row m-3 bg-white">
+          <!--  -->
+          <div
+            class="col col-12 col-lg-3 col-xl-2  py-4 d-flex justify-content-center align-items-center"
+          >
+            <div class="profile-box text-center">
+              <img src="image/avatar.png" alt="" />
+              <h5 class="my-2 fw-bold">Ramez karam</h5>
+              <p class="m-0 mb-1">Level 20</p>
+              <div class="progress-pro my-3 rounded-2">
+                <span
+                  style="width: 70%;"
+                  data-progress="80%"
+                  class="rounded-2"
+                ></span>
+              </div>
+              <div class="profile-rate mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="my-1">550 Rating</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="col col-12 col-lg-9 col-xl-10  p-0 d-flex">
+            <div class="profile-box border-start">
+              <!--  -->
+              <div class="box-info p-3 border-bottom text-center text-lg-start">
+                <h5 class="mb-2 fs-6">General Information</h5>
+                <div
+                  class="user-info d-flex gap-2 flex-wrap justify-content-center justify-content-lg-start"
+                >
+                  <div>
+                    Full Name :
+                    <span>Ramez karam</span>
+                  </div>
+                  <div>
+                    Gender :
+                    <span>Male</span>
+                  </div>
+                  <div>
+                    Country :
+                    <span>Egypt</span>
+                  </div>
+                  <div
+                    class="d-flex justify-content-center align-items-center justify-content-lg-start"
+                  >
+                    <div class="toggle-icon-pro" id="1"></div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="box-info p-3 border-bottom text-center text-lg-start">
+                <h5 class="mb-2 fs-6">Personal Information</h5>
+                <div
+                  class="user-info d-flex gap-2 flex-wrap justify-content-center justify-content-lg-start"
+                >
+                  <div>
+                    Email:
+                    <span>o@nn.sa</span>
+                  </div>
+                  <div>
+                    Phone:
+                    <span>01204013959</span>
+                  </div>
+                  <div>
+                    Date Of Birth:
+                    <span>03/09/1999</span>
+                  </div>
+                  <div
+                    class="d-flex justify-content-center align-items-center justify-content-lg-start"
+                  >
+                    <div class="toggle-icon-pro" id="2"></div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="box-info p-3 border-bottom text-center text-lg-start">
+                <h5 class="mb-2 fs-6">Job Information</h5>
+                <div
+                  class="user-info d-flex gap-2 flex-wrap justify-content-center justify-content-lg-start"
+                >
+                  <div>
+                    Title:
+                    <span>Front-end Developer</span>
+                  </div>
+                  <div>
+                    Programming Language:
+                    <span>Javascript</span>
+                  </div>
+                  <div>
+                    Years Of Experience:
+                    <span>3 months</span>
+                  </div>
+                  <div
+                    class="d-flex justify-content-center align-items-center justify-content-lg-start"
+                  >
+                    <div class="toggle-icon-pro" id="3"></div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="box-info p-3 text-center text-lg-start">
+                <h5 class="mb-2 fs-6">Billing Information</h5>
+                <div
+                  class="user-info d-flex gap-2 flex-wrap justify-content-center justify-content-lg-start"
+                >
+                  <div>
+                    Payment Method:
+                    <span>Vodafone Cash </span>
+                  </div>
+                  <div>
+                    Email:
+                    <span> email@website.com</span>
+                  </div>
+                  <div>
+                    Subscription:
+                    <span>Monthly</span>
+                  </div>
+                  <div
+                    class="d-flex justify-content-center align-items-center justify-content-lg-start"
+                  >
+                    <div class="toggle-icon-pro" id="4"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end row 1 -->
+        <!-- start row 2 -->
+        <div class="row m-3">
+          <div class="col col-12 col-lg-4 p-0 mb-3">
+            <div class="skills p-3 bg-white">
+              <div class="text-skills">
+                <h5 class="">My Skills</h5>
+                <p>Complete Skills List</p>
+              </div>
+              <!--  -->
+              <div class="my-skills border-bottom d-flex gap-2 justify-content-center justify-content-lg-start">
+                <p>HTML</p>
+                <p>Pugjs</p>
+                <p>HAML</p>
+              </div>
+              <!--  -->
+              <div class="my-skills border-bottom d-flex gap-2 justify-content-center justify-content-lg-start">
+                <p>CSS</p>
+                <p>SASS</p>
+                <p>Stylus</p>
+              </div>
+              <!--  -->
+              <div class="my-skills border-bottom d-flex gap-2 justify-content-center justify-content-lg-start">
+                <p>JavaScript</p>
+                <p>TypeScript</p>
+              </div>
+              <!--  -->
+              <div class="my-skills border-bottom d-flex gap-2 justify-content-center justify-content-lg-start">
+                <p>Vuejs</p>
+                <p>Reactjs</p>
+              </div>
+              <!--  -->
+              <div class="my-skills border-bottom d-flex gap-2 justify-content-center justify-content-lg-start">
+                <p>Jest</p>
+                <p>Jasmine</p>
+              </div>
+              <!--  -->
+              <div class="my-skills border-bottom d-flex gap-2 justify-content-center justify-content-lg-start">
+                <p>PHP</p>
+                <p>Laravel</p>
+              </div>
+              <!--  -->
+              <div class="my-skills d-flex gap-2 justify-content-center justify-content-lg-start">
+                <p>Python</p>
+                <p>Django</p>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="col col-12 col-lg-8 d-flex justify-content-start justify-content-lg-end p-0 ">
+            <div class="skills p-3 pb-0 bg-white">
+              <div class="text-skills">
+                <h5 class=""> Latest Activities</h5>
+                <p>Latest Activities Done By The User</p>
+              </div>
+              <!--  -->
+              <div class="last-activties">
+                <!--  -->
+                <div class="activity-box border-bottom  py-2">
+                  <div class="box d-flex justify-content-center align-items-center flex-column flex-md-row">
+                    <div class="activity-image me-md-3 me-0">
+                      <img src="image/activity-01.png" alt="">
+                    </div>
+                    <div class="text mt-2 mt-md-0 d-flex justify-content-between align-items-center flex-column flex-md-row text-center text-md-start">
+                      <div class="activeity-info">
+                        <h6 class="my-1">Store</h6>
+                        <p>Bought The Mastering Python Course</p>
+                      </div>
+                      <div class="time text-md-end text-center">
+                        <span class="my-2 d-block">18:10</span>
+                        <p>Yesterday</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="activity-box border-bottom  py-2">
+                  <div class="box d-flex justify-content-center align-items-center flex-column flex-md-row">
+                    <div class="activity-image me-md-3 me-0">
+                      <img src="image/activity-02.png" alt="">
+                    </div>
+                    <div class="text mt-2 mt-md-0 d-flex justify-content-between align-items-center flex-column flex-md-row text-center text-md-start">
+                      <div class="activeity-info">
+                        <h6 class="my-1">Academy</h6>
+                        <p>Got The PHP Certificate</p>
+                      </div>
+                      <div class="time text-md-end text-center">
+                        <span class="my-2 d-block">16:05</span>
+                        <p>Yesterday</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="activity-box border-bottom  py-2">
+                  <div class="box d-flex justify-content-center align-items-center flex-column flex-md-row">
+                    <div class="activity-image me-md-3 me-0">
+                      <img src="image/activity-03.png" alt="">
+                    </div>
+                    <div class="text mt-2 mt-md-0 d-flex justify-content-between align-items-center flex-column flex-md-row text-center text-md-start">
+                      <div class="activeity-info">
+                        <h6 class="my-1">Badges</h6>
+                        <p>Unlocked The 10 Skills Badge</p>
+                      </div>
+                      <div class="time text-md-end text-center">
+                        <span class="my-2 d-block">17:40</span>
+                        <p>Yesterday</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="activity-box  py-2">
+                  <div class="box d-flex justify-content-center align-items-center flex-column flex-md-row">
+                    <div class="activity-image me-md-3 me-0">
+                      <img src="image/activity-01.png" alt="">
+                    </div>
+                    <div class="text mt-2 mt-md-0 d-flex justify-content-between align-items-center flex-column flex-md-row text-center text-md-start">
+                      <div class="activeity-info">
+                        <h6 class="my-1">Store</h6>
+                        <p>Bought The Typescript Course</p>
+                      </div>
+                      <div class="time text-md-end text-center">
+                        <span class="my-2 d-block">10:10</span>
+                        <p>Yesterday</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <!-- end row 2 -->
+      </div>
+    </div>
+
+    <!-- script files -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/dash.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends</title>
+    <link rel="icon" href="icons8-favicon-94.png" type="image/x-icon" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/dash.css" />
+    <!-- google foont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- aso -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page d-flex mb-0">
+      <!-- start dashboard  -->
+
+      <div class="dashboard">
+        <h3 class="text-center mb-md-5 pb-4 pt-3 position-relative">Dash</h3>
+        <div class="links">
+          <ul class="p-2 m-0">
+            <li class="p-2 ps-md-3">
+              <a href="index.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-regular fa-chart-bar fa-fw me-3 fs-6"></i
+                ><span>Dashboard</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="setting.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-solid fa-gear fa-fw me-3 fs-6"></i
+                ><span>Setting</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="profile.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-regular fa-user fa-fw me-3 fs-6"></i
+                ><span>Profile</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="projects.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-solid fa-diagram-project fa-fw me-3 fs-6"></i
+                ><span>Projects</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="courses.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-solid fa-graduation-cap fa-fw me-3 fs-6"></i
+                ><span>Courses</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="friends.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-regular fa-circle-user fa-fw me-3 fs-6"></i
+                ><span>Friends</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="files.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-regular fa-file fa-fw me-3 fs-6"></i
+                ><span>Files</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="plans.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-regular fa-credit-card fa-fw me-3 fs-6"></i
+                ><span>Plans</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- end dashboard  -->
+
+      <div class="content" style="background-color: #f1f5f9;">
+        <!-- 
+            
+            start header -->
+        <header
+          class="d-flex justify-content-between align-items-center p-3 bg-white"
+        >
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              class="ps-5 p-2 rounded-2"
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Type a Keyword"
+            />
+          </div>
+          <div class="icons d-flex align-items-center gap-2">
+            <div class="bell"><i class="fa-regular fa-bell fa-lg"></i></div>
+            <img src="image/avatar.png" alt="" />
+          </div>
+        </header>
+        <!-- end header -->
+        <!-- start headline -->
+        <div class="headline p-3 mb-3">
+          <h3 class="fw-bold fs-2 p-2">Friends</h3>
+        </div>
+        <!-- start row -->
+        <div class="row mx-3 all-friends">
+            <!--  -->
+            <div class="col col-12 col-sm-6 col-md-6 col-xl-3 col-lg-4 p-0 mb-2">
+                <div class="friend bg-white p-3 pb-0">
+                    <div class="call mb-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="firend-info border-bottom d-flex flex-column justify-content-center align-items-center">
+                        <img src="image/friend-01.jpg" alt="" class="rounded-circle mb-3">
+                        <h6 class="fw-bold mb-1">Ahmed Nasser</h6>
+                        <p>JavaScript Developer</p>
+                    </div>
+                    <div class="more-info border-bottom d-flex justify-content-between align-items-center py-2">
+                        <div class="article">
+                            <p><i class="fa-regular fa-face-smile fa-fw"></i> 99 Friends</p>
+                            <p><i class="fa-solid fa-code-commit fa-fw"></i> 15 Projects</p>
+                            <p><i class="fa-regular fa-newspaper fa-fw"></i> 25 Articles</p>
+                        </div>
+                        <div class="vip">VIP</div>
+                    </div>
+                    <div class="join-date py-3 d-flex  align-items-center flex-column">
+                        <p>Joined 02/10/2021</p>
+                        <div class="contro d-flex justify-content-between align-items-center ">
+                            <button class="btn bg-primary text-white"><a href="profile.html" class="text-white">Profile</a></button>
+                            <button class="btn bg-danger text-white remove">Remove</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <!--  -->
+            <div class="col col-12 col-sm-6 col-md-6 col-xl-3 col-lg-4 p-0 mb-2">
+                <div class="friend bg-white p-3 pb-0">
+                    <div class="call mb-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="firend-info border-bottom d-flex flex-column justify-content-center align-items-center">
+                        <img src="image/friend-02.jpg" alt="" class="rounded-circle mb-3">
+                        <h6 class="fw-bold mb-1">Omar Fathy</h6>
+                        <p>Cloud Developer</p>
+                    </div>
+                    <div class="more-info border-bottom d-flex justify-content-between align-items-center py-2">
+                        <div class="article">
+                            <p><i class="fa-regular fa-face-smile fa-fw"></i> 30 Friends</p>
+                            <p><i class="fa-solid fa-code-commit fa-fw"></i> 11 Projects</p>
+                            <p><i class="fa-regular fa-newspaper fa-fw"></i> 12 Articles</p>
+                        </div>
+                        <div class="vip zero-opacity">VIP</div>
+                    </div>
+                    <div class="join-date py-3 d-flex  align-items-center flex-column">
+                        <p>Joined 02/10/2021</p>
+                        <div class="contro d-flex justify-content-between align-items-center ">
+                            <button class="btn bg-primary text-white"><a href="profile.html" class="text-white">Profile</a></button>
+                            <button class="btn bg-danger text-white remove">Remove</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <!--  -->
+            <div class="col col-12 col-sm-6 col-md-6 col-xl-3 col-lg-4 p-0 mb-2">
+                <div class="friend bg-white p-3 pb-0">
+                    <div class="call mb-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="firend-info border-bottom d-flex flex-column justify-content-center align-items-center">
+                        <img src="image/friend-03.jpg" alt="" class="rounded-circle mb-3">
+                        <h6 class="fw-bold mb-1">Omar Ahmed</h6>
+                        <p>Mobile Developer</p>
+                    </div>
+                    <div class="more-info border-bottom d-flex justify-content-between align-items-center py-2">
+                        <div class="article">
+                            <p><i class="fa-regular fa-face-smile fa-fw"></i> 99 Friends</p>
+                            <p><i class="fa-solid fa-code-commit fa-fw"></i> 15 Projects</p>
+                            <p><i class="fa-regular fa-newspaper fa-fw"></i> 25 Articles</p>
+                        </div>
+                        <div class="vip zero-opacity">VIP</div>
+                    </div>
+                    <div class="join-date py-3 d-flex  align-items-center flex-column">
+                        <p>Joined 02/10/2021</p>
+                        <div class="contro d-flex justify-content-between align-items-center ">
+                            <button class="btn bg-primary text-white"><a href="profile.html" class="text-white">Profile</a></button>
+                            <button class="btn bg-danger text-white remove">Remove</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <!--  -->
+            <div class="col col-12 col-sm-6 col-md-6 col-xl-3 col-lg-4 p-0 mb-2">
+                <div class="friend bg-white p-3 pb-0">
+                    <div class="call mb-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="firend-info border-bottom d-flex flex-column justify-content-center align-items-center">
+                        <img src="image/friend-05.jpg" alt="" class="rounded-circle mb-3">
+                        <h6 class="fw-bold mb-1">Ramez Karm</h6>
+                        <p>Mobile Developer</p>
+                    </div>
+                    <div class="more-info border-bottom d-flex justify-content-between align-items-center py-2">
+                        <div class="article">
+                            <p><i class="fa-regular fa-face-smile fa-fw"></i> 70 Friends</p>
+                            <p><i class="fa-solid fa-code-commit fa-fw"></i> 30 Projects</p>
+                            <p><i class="fa-regular fa-newspaper fa-fw"></i> 18 Articles</p>
+                        </div>
+                        <div class="vip zero-opacity">VIP</div>
+                    </div>
+                    <div class="join-date py-3 d-flex  align-items-center flex-column">
+                        <p>Joined 02/10/2021</p>
+                        <div class="contro d-flex justify-content-between align-items-center ">
+                            <button class="btn bg-primary text-white"><a href="profile.html" class="text-white">Profile</a></button>
+                            <button class="btn bg-danger text-white remove">Remove</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <!--  -->
+            <div class="col col-12 col-sm-6 col-md-6 col-xl-3 col-lg-4 p-0 mb-2">
+                <div class="friend bg-white p-3 pb-0">
+                    <div class="call mb-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="firend-info border-bottom d-flex flex-column justify-content-center align-items-center">
+                        <img src="image/friend-04.jpg" alt="" class="rounded-circle mb-3">
+                        <h6 class="fw-bold mb-1">Sameh Karam </h6>
+                        <p>Back-End Developer</p>
+                    </div>
+                    <div class="more-info border-bottom d-flex justify-content-between align-items-center py-2">
+                        <div class="article">
+                            <p><i class="fa-regular fa-face-smile fa-fw"></i> 99 Friends</p>
+                            <p><i class="fa-solid fa-code-commit fa-fw"></i> 15 Projects</p>
+                            <p><i class="fa-regular fa-newspaper fa-fw"></i> 25 Articles</p>
+                        </div>
+                        <div class="vip">VIP</div>
+                    </div>
+                    <div class="join-date py-3 d-flex  align-items-center flex-column">
+                        <p>Joined 02/10/2021</p>
+                        <div class="contro d-flex justify-content-between align-items-center ">
+                            <button class="btn bg-primary text-white"><a href="profile.html" class="text-white">Profile</a></button>
+                            <button class="btn bg-danger text-white remove">Remove</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <!--  -->
+            <div class="col col-12 col-sm-6 col-md-6 col-xl-3 col-lg-4 p-0 mb-2">
+                <div class="friend bg-white p-3 pb-0">
+                    <div class="call mb-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="firend-info border-bottom d-flex flex-column justify-content-center align-items-center">
+                        <img src="image/friend-02.jpg" alt="" class="rounded-circle mb-3">
+                        <h6 class="fw-bold mb-1">Heba Karam</h6>
+                        <p>Algorithm Developer </p>
+                    </div>
+                    <div class="more-info border-bottom d-flex justify-content-between align-items-center py-2">
+                        <div class="article">
+                            <p><i class="fa-regular fa-face-smile fa-fw"></i> 99 Friends</p>
+                            <p><i class="fa-solid fa-code-commit fa-fw"></i> 15 Projects</p>
+                            <p><i class="fa-regular fa-newspaper fa-fw"></i> 25 Articles</p>
+                        </div>
+                        <div class="vip">VIP</div>
+                    </div>
+                    <div class="join-date py-3 d-flex  align-items-center flex-column">
+                        <p>Joined 02/10/2021</p>
+                        <div class="contro d-flex justify-content-between align-items-center ">
+                            <button class="btn bg-primary text-white"><a href="profile.html" class="text-white">Profile</a></button>
+                            <button class="btn bg-danger text-white remove">Remove</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <!--  -->
+            <div class="col col-12 col-sm-6 col-md-6 col-xl-3 col-lg-4 p-0 mb-2">
+                <div class="friend bg-white p-3 pb-0">
+                    <div class="call mb-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="firend-info border-bottom d-flex flex-column justify-content-center align-items-center">
+                        <img src="image/friend-05.jpg" alt="" class="rounded-circle mb-3">
+                        <h6 class="fw-bold mb-1">Ahmed Nasser</h6>
+                        <p>Back-End Developer </p>
+                    </div>
+                    <div class="more-info border-bottom d-flex justify-content-between align-items-center py-2">
+                        <div class="article">
+                            <p><i class="fa-regular fa-face-smile fa-fw"></i> 99 Friends</p>
+                            <p><i class="fa-solid fa-code-commit fa-fw"></i> 15 Projects</p>
+                            <p><i class="fa-regular fa-newspaper fa-fw"></i> 25 Articles</p>
+                        </div>
+                        <div class="vip zero-opacity">VIP</div>
+                    </div>
+                    <div class="join-date py-3 d-flex  align-items-center flex-column">
+                        <p>Joined 02/10/2021</p>
+                        <div class="contro d-flex justify-content-between align-items-center ">
+                            <button class="btn bg-primary text-white"><a href="profile.html" class="text-white">Profile</a></button>
+                            <button class="btn bg-danger text-white remove">Remove</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <!--  -->
+            <div class="col col-12 col-sm-6 col-md-6 col-xl-3 col-lg-4 p-0 mb-2">
+                <div class="friend bg-white p-3 pb-0">
+                    <div class="call mb-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="firend-info border-bottom d-flex flex-column justify-content-center align-items-center">
+                        <img src="image/friend-03.jpg" alt="" class="rounded-circle mb-3">
+                        <h6 class="fw-bold mb-1">Ahmed Nasser</h6>
+                        <p>Front-End Developer </p>
+                    </div>
+                    <div class="more-info border-bottom d-flex justify-content-between align-items-center py-2">
+                        <div class="article">
+                            <p><i class="fa-regular fa-face-smile fa-fw"></i> 99 Friends</p>
+                            <p><i class="fa-solid fa-code-commit fa-fw"></i> 15 Projects</p>
+                            <p><i class="fa-regular fa-newspaper fa-fw"></i> 25 Articles</p>
+                        </div>
+                        <div class="vip zero-opacity">VIP</div>
+                    </div>
+                    <div class="join-date py-3 d-flex  align-items-center flex-column">
+                        <p>Joined 02/10/2021</p>
+                        <div class="contro d-flex justify-content-between align-items-center ">
+                            <button class="btn bg-primary text-white"><a href="profile.html" class="text-white">Profile</a></button>
+                            <button class="btn bg-danger text-white remove">Remove</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <!--  -->
+            <div class="col col-12 col-sm-6 col-md-6 col-xl-3 col-lg-4 p-0 mb-2">
+                <div class="friend bg-white p-3 pb-0">
+                    <div class="call mb-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="firend-info border-bottom d-flex flex-column justify-content-center align-items-center">
+                        <img src="image/friend-05.jpg" alt="" class="rounded-circle mb-3">
+                        <h6 class="fw-bold mb-1">Ahmed Nasser</h6>
+                        <p>JavaScript Developer</p>
+                    </div>
+                    <div class="more-info border-bottom d-flex justify-content-between align-items-center py-2">
+                        <div class="article">
+                            <p><i class="fa-regular fa-face-smile fa-fw"></i> 99 Friends</p>
+                            <p><i class="fa-solid fa-code-commit fa-fw"></i> 15 Projects</p>
+                            <p><i class="fa-regular fa-newspaper fa-fw"></i> 25 Articles</p>
+                        </div>
+                        <div class="vip">VIP</div>
+                    </div>
+                    <div class="join-date py-3 d-flex  align-items-center flex-column">
+                        <p>Joined 02/10/2021</p>
+                        <div class="contro d-flex justify-content-between align-items-center ">
+                            <button class="btn bg-primary text-white"><a href="profile.html" class="text-white">Profile</a></button>
+                            <button class="btn bg-danger text-white remove">Remove</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <!--  -->
+            <div class="col col-12 col-sm-6 col-md-6 col-xl-3 col-lg-4 p-0 mb-2">
+                <div class="friend bg-white p-3 pb-0">
+                    <div class="call mb-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="firend-info border-bottom d-flex flex-column justify-content-center align-items-center">
+                        <img src="image/friend-01.jpg" alt="" class="rounded-circle mb-3">
+                        <h6 class="fw-bold mb-1">Ahmed Nasser</h6>
+                        <p>JavaScript Developer</p>
+                    </div>
+                    <div class="more-info border-bottom d-flex justify-content-between align-items-center py-2">
+                        <div class="article">
+                            <p><i class="fa-regular fa-face-smile fa-fw"></i> 99 Friends</p>
+                            <p><i class="fa-solid fa-code-commit fa-fw"></i> 15 Projects</p>
+                            <p><i class="fa-regular fa-newspaper fa-fw"></i> 25 Articles</p>
+                        </div>
+                        <div class="vip">VIP</div>
+                    </div>
+                    <div class="join-date py-3 d-flex  align-items-center flex-column">
+                        <p>Joined 02/10/2021</p>
+                        <div class="contro d-flex justify-content-between align-items-center ">
+                            <button class="btn bg-primary text-white"><a href="profile.html" class="text-white">Profile</a></button>
+                            <button class="btn bg-danger text-white remove">Remove</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <!-- end row -->
+      </div>
+    </div>
+
+    <!-- script files -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/dash.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

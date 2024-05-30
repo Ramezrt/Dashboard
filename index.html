@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="icon" href="icons8-favicon-94.png" type="image/x-icon" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/dash.css" />
+    <!-- google foont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- aso -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page d-flex mb-3">
+      <!-- start dashboard  -->
+
+      <div class="dashboard">
+        <h3 class="text-center mb-md-5 pb-4 pt-3 position-relative">Dash</h3>
+        <div class="links">
+          <ul class="p-2 m-0">
+            <li class="p-2 ps-md-3">
+              <a href="index.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-regular fa-chart-bar fa-fw me-3 fs-6"></i
+                ><span>Dashboard</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="setting.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-solid fa-gear fa-fw me-3 fs-6"></i
+                ><span>Setting</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="profile.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-regular fa-user fa-fw me-3 fs-6"></i
+                ><span>Profile</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="projects.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-solid fa-diagram-project fa-fw me-3 fs-6"></i
+                ><span>Projects</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="courses.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-solid fa-graduation-cap fa-fw me-3 fs-6"></i
+                ><span>Courses</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="friends.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-regular fa-circle-user fa-fw me-3 fs-6"></i
+                ><span>Friends</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="files.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-regular fa-file fa-fw me-3 fs-6"></i
+                ><span>Files</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="plans.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-regular fa-credit-card fa-fw me-3 fs-6"></i
+                ><span>Plans</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- end dashboard  -->
+      <!-- 
+
+
+       -->
+      <div class="content" style="background-color: #f1f5f9;">
+        <!-- 
+          
+          start header -->
+        <header
+          class="d-flex justify-content-between align-items-center p-3 bg-white"
+        >
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              class="ps-5 p-2 rounded-2"
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Type a Keyword"
+            />
+          </div>
+          <div class="icons d-flex align-items-center gap-2">
+            <div class="bell"><i class="fa-regular fa-bell fa-lg"></i></div>
+            <img src="image/avatar.png" alt="" />
+          </div>
+        </header>
+        <!-- end header 
+                
+                
+                -->
+        <!-- start headline -->
+        <div class="headline p-3 mb-3">
+          <h3 class="fw-bold fs-2 p-2">Dashboard</h3>
+        </div>
+        <!-- end headline -->
+        <!-- start frist row -->
+
+        <div class="row row-cols-3 mx-2">
+          <!--  -->
+          <div
+            class="col col-xl-6 col-12 col-xxl-4 p-0 rounded-3 position-relative d-flex flex-column justify-content-center align-items-center mb-2"
+          >
+            <div class="math bg-white rounded-3" style="width: 98%;">
+              <div
+                style="background-color: var(--row-color);"
+                class="welcome d-flex justify-content-between p-3 align-items-center"
+              >
+                <div class="text">
+                  <h3>Welcome</h3>
+                  <p>Ramez</p>
+                </div>
+                <img src="image/welcome.png" alt="" class="d-none d-md-block" />
+              </div>
+              <div
+                class="info d-flex justify-content-around p-3 pb-1 mt-5 align-items-center flex-column flex-sm-row"
+              >
+                <img src="image/avatar.png" alt="" class="position-absolute" />
+
+                <div class="user">
+                  <h4>Ramez Karam</h4>
+                  <p>Developer</p>
+                </div>
+                <div class="user">
+                  <h4>4</h4>
+                  <p>Projects</p>
+                </div>
+                <div class="user">
+                  <h4>$4000</h4>
+                  <p>Earned</p>
+                </div>
+              </div>
+
+              <button class="btn btn-primary my-3 me-3" style="float: right;">
+                Profile
+              </button>
+            </div>
+          </div>
+          <div
+            class="col col-xl-6 col-12 col-xxl-4 p-0 rounded-3 position-relative d-flex flex-column justify-content-center align-items-center mb-2"
+          >
+            <div class="math bg-white" style="width: 98%;">
+              <div class="text">
+                <h4 class="pt-3 p-2 pb-1 m-0">Quick Draft</h4>
+                <p class="pt-2 p-2" style="color: #9d9c9c; font-size: 15px;">
+                  Write A Draft For Your Ideas
+                </p>
+              </div>
+              <div
+                class="form d-flex flex-column justify-content-center align-items-center"
+              >
+                <input
+                  type="text"
+                  name="title"
+                  id="title"
+                  placeholder="title"
+                  class="d-block mb-3 p-2 ps-3 border-0 outline-0 rounded-2"
+                />
+                <textarea
+                  name="thoughts"
+                  id=""
+                  placeholder="Your thoughts"
+                  class="d-block p-2 ps-3 border-0 outline-0 rounded-2"
+                ></textarea>
+              </div>
+              <button class="btn btn-primary my-3 me-3" style="float: right;">
+                save
+              </button>
+            </div>
+          </div>
+          <div
+            class="col col-xl-6 col-12 col-xxl-4 p-0 rounded-3 position-relative d-flex flex-column justify-content-center align-items-center mb-2"
+          >
+            <div class="math bg-white" style="width: 98%;">
+              <div class="text">
+                <h4 class="pt-3 ps-2 pb-1 m-0">Yearly Targets</h4>
+                <p
+                  class="pt-2 ps-2 m-0"
+                  style="color: #9d9c9c; font-size: 15px;"
+                >
+                  Targets Of The Year
+                </p>
+              </div>
+              <div class="target">
+                <div
+                  class="money d-flex p-2 justify-content-center align-items-center"
+                >
+                  <div
+                    class="icon d-flex justify-content-center align-items-center me-3 border-0"
+                  >
+                    <i class="fa-solid fa-dollar-sign fa-lg c-blue"></i>
+                  </div>
+                  <div class="money-info">
+                    <h6 class="color-dark m-0">Money</h6>
+                    <p class="fw-bold">$20.000</p>
+                    <div class="pro">
+                      <span style="width: 80%;" data-pro="80%"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="target">
+                <div
+                  class="project d-flex p-2 justify-content-center align-items-center"
+                >
+                  <div
+                    class="icon d-flex justify-content-center align-items-center me-3 border-0"
+                  >
+                    <i class="fa-solid fa-code fa-lg c-orange"></i>
+                  </div>
+                  <div class="money-info">
+                    <h6 class="color-dark m-0">
+                      Projects
+                    </h6>
+                    <p class="fw-bold">24</p>
+                    <div class="pro">
+                      <span style="width: 55%;" data-pro="55%"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="target">
+                <div
+                  class="team d-flex p-2 justify-content-center align-items-center"
+                >
+                  <div
+                    class="icon d-flex justify-content-center align-items-center me-3 border-0"
+                  >
+                    <i class="fa-solid fa-user fa-lg c-green"></i>
+                  </div>
+                  <div class="money-info">
+                    <h6 class="color-dark m-0">Team</h6>
+                    <p class="fw-bold">1</p>
+                    <div class="pro">
+                      <span style="width: 75%;" data-pro="75%"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col col-xl-6 col-12 col-xxl-4 p-0 rounded-3 position-relative d-flex flex-column justify-content-center align-items-center mb-2"
+          >
+            <div class="math bg-white" style="width: 98%;">
+              <div class="text">
+                <h4 class="pt-3 p-2 pb-0 m-0">Tickets Statistics</h4>
+                <p class="pt-1 p-2" style="color: #9d9c9c; font-size: 15px;">
+                  Everything About Support Tickets
+                </p>
+              </div>
+              <div
+                class="box d-flex justify-content-center align-items-center gap-2 text-center flex-wrap p-2"
+              >
+                <div class="box-info">
+                  <i
+                    class="fa-regular fa-rectangle-list pt-3"
+                    style="color: var(--orange-color);"
+                  ></i>
+                  <h4 class="pt-2">2500</h4>
+                  <p>Total</p>
+                </div>
+                <div class="box-info">
+                  <i
+                    class="fa-solid fa-spinner pt-3"
+                    style="color: var(--blue-color);"
+                  ></i>
+                  <h4 class="pt-2">500</h4>
+                  <p>Pending</p>
+                </div>
+                <div class="box-info">
+                  <i
+                    class="fa-regular fa-circle-check pt-3"
+                    style="color: var(--green-color);"
+                  ></i>
+                  <h4 class="pt-2">1900</h4>
+                  <p>Closed</p>
+                </div>
+                <div class="box-info">
+                  <i
+                    class="fa-regular fa-rectangle-xmark pt-3"
+                    style="color: var(--red-color);"
+                  ></i>
+                  <h4 class="pt-2">100</h4>
+                  <p>Deleted</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- start news -->
+          <div
+            class="col col-xl-6 col-xxl-4 col-12 p-0 rounded-3 position-relative d-flex flex-column justify-content-center align-items-center mb-2"
+          >
+            <div
+              class="math bg-white news text-center text-md-start"
+              style="width: 98%;"
+            >
+              <div class="text mb-3">
+                <h4 class="pt-3 p-2 pb-0 m-0">Latest News</h4>
+              </div>
+              <div class="box px-2 d-flex flex-column">
+                <div
+                  class="box-news d-flex justify-content-center align-items-center py-1 flex-column flex-md-row"
+                >
+                  <img src="image/news-01.png" alt="" class="me-3 rounded-2" />
+                  <div
+                    class="text-news d-flex justify-content-between align-items-center p-2 flex-column flex-md-row"
+                  >
+                    <div class="info-news">
+                      <h5 class="fw-bold m-0 pb-2">Created SASS Section</h5>
+                      <p class="m-0">New SASS Examples & Tutorials</p>
+                    </div>
+                    <p class="py-1 px-3 rounded-3 mt-2">3 Days Ago</p>
+                  </div>
+                </div>
+                <!--  -->
+                <div
+                  class="box-news d-flex justify-content-center align-items-center py-1 flex-column flex-md-row"
+                >
+                  <img src="image/news-02.png" alt="" class="me-3 rounded-2" />
+                  <div
+                    class="text-news d-flex justify-content-between align-items-center p-2 flex-column flex-md-row"
+                  >
+                    <div class="info-news">
+                      <h5 class="fw-bold m-0 pb-2">Changed The Design</h5>
+                      <p class="m-0">A Brand New Website Design</p>
+                    </div>
+                    <p class="py-1 px-3 rounded-3 mt-2">5 Days Ago</p>
+                  </div>
+                </div>
+                <!--  -->
+                <div
+                  class="box-news d-flex justify-content-center align-items-center py-1 flex-column flex-md-row"
+                >
+                  <img src="image/news-03.png" alt="" class="me-3 rounded-2" />
+                  <div
+                    class="text-news d-flex justify-content-between align-items-center p-2 flex-column flex-md-row"
+                  >
+                    <div class="info-news">
+                      <h5 class="fw-bold m-0 pb-2">Team Increased</h5>
+                      <p class="m-0">3 Developers Joined The Team</p>
+                    </div>
+                    <p class="py-1 px-3 rounded-3 mt-2">7 Days Ago</p>
+                  </div>
+                </div>
+                <!--  -->
+                <div
+                  class="box-news d-flex justify-content-center align-items-center py-1 flex-column flex-md-row"
+                >
+                  <img src="image/news-04.png" alt="" class="me-3 rounded-2" />
+                  <div
+                    class="text-news d-flex justify-content-between align-items-center p-2 flex-column flex-md-row"
+                  >
+                    <div class="info-news">
+                      <h5 class="fw-bold m-0 pb-2">Added Payment Gateway</h5>
+                      <p class="m-0">Many New Payment Gateways Added</p>
+                    </div>
+                    <p class="py-1 px-3 rounded-3 mt-2">9 Days Ago</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end news -->
+          <!-- start tasks -->
+          <div
+            class="col col-xl-6 col-12 col-xxl-4 p-0 rounded-3 position-relative d-flex flex-column justify-content-center align-items-center mb-2"
+          >
+            <div
+              class="math bg-white task text-center text-md-start"
+              style="width: 98%;"
+            >
+              <div class="text mb-3">
+                <h4 class="pt-3 px-3 pb-0 m-0 fw-bold">Latest Tasks</h4>
+              </div>
+              <div class="box px-2 d-flex flex-column">
+                <div
+                  class="box-task d-flex justify-content-between align-items-center py-2 px-2"
+                >
+                  <div class="text-task">
+                    <h5 class="fw-bold m-0 pb-2">Record One New Video</h5>
+                    <p class="m-0">Record Python Create Exe Project</p>
+                  </div>
+                  <div class="icon">
+                    <i class="fa-regular fa-trash-can delete"></i>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="box px-2 d-flex flex-column">
+                <div
+                  class="box-task d-flex justify-content-between align-items-center py-2 px-2"
+                >
+                  <div class="text-task">
+                    <h5 class="fw-bold m-0 pb-2">Write Article</h5>
+                    <p class="m-0">Write Low Level vs High Level Languages</p>
+                  </div>
+                  <div class="icon">
+                    <i class="fa-regular fa-trash-can delete"></i>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="box px-2 d-flex flex-column">
+                <div
+                  class="box-task d-flex justify-content-between align-items-center py-2 px-2"
+                >
+                  <div class="text-task">
+                    <h5 class="fw-bold m-0 pb-2">Finish Project</h5>
+                    <p class="m-0">Publish Academy Programming Project</p>
+                  </div>
+                  <div class="icon">
+                    <i class="fa-regular fa-trash-can delete"></i>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="box px-2 d-flex flex-column">
+                <div
+                  class="box-task d-flex justify-content-between align-items-center py-2 px-2"
+                >
+                  <div class="text-task">
+                    <h5 class="fw-bold m-0 pb-2">Attend The Meeting</h5>
+                    <p class="m-0">
+                      Attend The Project Business Analysis Meeting
+                    </p>
+                  </div>
+                  <div class="icon">
+                    <i class="fa-regular fa-trash-can delete"></i>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="box px-2 d-flex flex-column">
+                <div
+                  class="box-task d-flex justify-content-between align-items-center py-2 px-2 finished"
+                >
+                  <div class="text-task">
+                    <h5 class="fw-bold m-0 pb-2">Finish Lesson</h5>
+                    <p class="m-0">Finish Teaching Flex Box</p>
+                  </div>
+                  <div class="icon">
+                    <i class="fa-regular fa-trash-can delete"></i>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+          </div>
+          <!-- end tasks -->
+          <!-- start top search -->
+          <div
+            class="col col-xl-6 col-12 col-xxl-4 p-0 rounded-3 position-relative d-flex flex-column justify-content-center align-items-center mb-2"
+          >
+            <div
+              class="math bg-white top text-center text-md-start"
+              style="width: 98%;"
+            >
+              <div class="text mb-3">
+                <h4 class="pt-3 px-3 pb-0 m-0 fw-bold">Top Search Items</h4>
+              </div>
+              <div class="box px-2 d-flex flex-column">
+                <div
+                  class="box-top d-flex justify-content-between align-items-center py-1 px-2"
+                >
+                  <div class="text-top">
+                    <h5 class="m-0 pb-2" style="color: var(--grey-color);">
+                      Keyword
+                    </h5>
+                  </div>
+                  <div class="icon">
+                    <p
+                      class="bg-white"
+                      style="color: var(--grey-color); font-size: 15px;"
+                    >
+                      Search Count
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="box px-2 d-flex flex-column">
+                <div
+                  class="box-top d-flex justify-content-between align-items-center py-1 px-2"
+                >
+                  <div class="text-top">
+                    <h5 class="m-0 pb-2">
+                      Programming
+                    </h5>
+                  </div>
+                  <div class="icon">
+                    <p class="p-1 px-2 rounded-3">220</p>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <!--  -->
+              <div class="box px-2 d-flex flex-column">
+                <div
+                  class="box-top d-flex justify-content-between align-items-center py-1 px-2"
+                >
+                  <div class="text-top">
+                    <h5 class="m-0 pb-2">
+                      JavaScript
+                    </h5>
+                  </div>
+                  <div class="icon">
+                    <p class="p-1 px-2 rounded-3">180</p>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <!--  -->
+              <div class="box px-2 d-flex flex-column">
+                <div
+                  class="box-top d-flex justify-content-between align-items-center py-1 px-2"
+                >
+                  <div class="text-top">
+                    <h5 class="m-0 pb-2">
+                      PHP
+                    </h5>
+                  </div>
+                  <div class="icon">
+                    <p class="p-1 px-2 rounded-3">160</p>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <!--  -->
+              <div class="box px-2 d-flex flex-column">
+                <div
+                  class="box-top d-flex justify-content-between align-items-center py-1 px-2"
+                >
+                  <div class="text-top">
+                    <h5 class="m-0 pb-2">
+                      Code
+                    </h5>
+                  </div>
+                  <div class="icon">
+                    <p class="p-1 px-2 rounded-3">145</p>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <!--  -->
+              <div class="box px-2 d-flex flex-column">
+                <div
+                  class="box-top d-flex justify-content-between align-items-center py-1 px-2"
+                >
+                  <div class="text-top">
+                    <h5 class="m-0 pb-2">
+                      Design
+                    </h5>
+                  </div>
+                  <div class="icon">
+                    <p class="p-1 px-2 rounded-3">110</p>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <!--  -->
+              <div class="box px-2 d-flex flex-column">
+                <div
+                  class="box-top d-flex justify-content-between align-items-center py-1 px-2"
+                >
+                  <div class="text-top">
+                    <h5 class="m-0 pb-2">
+                      Logic
+                    </h5>
+                  </div>
+                  <div class="icon">
+                    <p class="p-1 px-2 rounded-3">95</p>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+          </div>
+          <!-- end top search -->
+          <!-- lates uploads -->
+          <div
+            class="col col-xl-6 col-12 col-xxl-4 p-0 rounded-3 position-relative d-flex flex-column justify-content-center align-items-center mb-2"
+          >
+            <div
+              class="math bg-white upload text-center text-md-start"
+              style="width: 98%;"
+            >
+              <div class="text mb-3">
+                <h4 class="pt-3 px-3 pb-0 m-0 fw-bold">Latest Uploads</h4>
+              </div>
+
+              <!--  -->
+              <div class="box px-2 d-flex flex-column">
+                <div
+                  class="box-cont d-flex justify-content-center align-items-center gap-2 py-1"
+                >
+                  <img src="image/pdf.svg" alt="" />
+                  <div
+                    class="box-upload d-flex justify-content-between align-items-center py-1 px-2"
+                    style="flex: 1;"
+                  >
+                    <div class="text-upload">
+                      <h5 class="m-0">
+                        my-file.pdf
+                      </h5>
+                      <span>Elzero</span>
+                    </div>
+                    <div class="icon">
+                      <p class="p-1 px-2 rounded-3">2.9mb</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <!--  -->
+              <div class="box px-2 d-flex flex-column">
+                <div
+                  class="box-cont d-flex justify-content-center align-items-center gap-2 py-1"
+                >
+                  <img src="image/avi.svg" alt="" />
+                  <div
+                    class="box-upload d-flex justify-content-between align-items-center py-1 px-2"
+                    style="flex: 1;"
+                  >
+                    <div class="text-upload">
+                      <h5 class="m-0">
+                        My-Video-File.avi
+                      </h5>
+                      <span>Admin</span>
+                    </div>
+                    <div class="icon">
+                      <p class="p-1 px-2 rounded-3">4.9mb</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <!--  -->
+              <div class="box px-2 d-flex flex-column">
+                <div
+                  class="box-cont d-flex justify-content-center align-items-center gap-2 py-1"
+                >
+                  <img src="image/psd.svg" alt="" />
+                  <div
+                    class="box-upload d-flex justify-content-between align-items-center py-1 px-2"
+                    style="flex: 1;"
+                  >
+                    <div class="text-upload">
+                      <h5 class="m-0">
+                        My-Psd-File.pdf
+                      </h5>
+                      <span>Osama</span>
+                    </div>
+                    <div class="icon">
+                      <p class="p-1 px-2 rounded-3">4.5mb</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <!--  -->
+              <div class="box px-2 d-flex flex-column">
+                <div
+                  class="box-cont d-flex justify-content-center align-items-center gap-2 py-1"
+                >
+                  <img src="image/zip.svg" alt="" />
+                  <div
+                    class="box-upload d-flex justify-content-between align-items-center py-1 px-2"
+                    style="flex: 1;"
+                  >
+                    <div class="text-upload">
+                      <h5 class="m-0">
+                        My-Zip-File.pdf
+                      </h5>
+                      <span>User</span>
+                    </div>
+                    <div class="icon">
+                      <p class="p-1 px-2 rounded-3">8.9mb</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <!--  -->
+              <div class="box px-2 d-flex flex-column">
+                <div
+                  class="box-cont d-flex justify-content-center align-items-center gap-2 py-1"
+                >
+                  <img src="image/dll.svg" alt="" />
+                  <div
+                    class="box-upload d-flex justify-content-between align-items-center py-1 px-2"
+                    style="flex: 1;"
+                  >
+                    <div class="text-upload">
+                      <h5 class="m-0">
+                        My-DLL-File.pdf
+                      </h5>
+                      <span>Admin</span>
+                    </div>
+                    <div class="icon">
+                      <p class="p-1 px-2 rounded-3">4.9mb</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <!--  -->
+              <div class="box px-2 d-flex flex-column">
+                <div
+                  class="box-cont d-flex justify-content-center align-items-center gap-2 py-1"
+                >
+                  <img src="image/eps.svg" alt="" />
+                  <div
+                    class="box-upload d-flex justify-content-between align-items-center py-1 px-2"
+                    style="flex: 1;"
+                  >
+                    <div class="text-upload">
+                      <h5 class="m-0">
+                        My-Eps-File.pdf
+                      </h5>
+                      <span>Designer</span>
+                    </div>
+                    <div class="icon">
+                      <p class="p-1 px-2 rounded-3">8.6mb</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+          </div>
+          <!--end lates uploads -->
+          <!-- start project progress -->
+          <div
+            class="col col-xl-6 col-12 col-xxl-4 p-0 rounded-3 position-relative d-flex flex-column justify-content-center align-items-center mb-2"
+          >
+            <div
+              class="math bg-white launch text-center text-md-start"
+              style="width: 98%;"
+            >
+              <div class="text mb-3">
+                <h4 class="pt-3 px-3 pb-0 m-0 fw-bold">
+                  Last Project Progress
+                </h4>
+              </div>
+              <!--  -->
+              <div
+                class="box px-2 d-flex justify-content-between flex-row flex-xxl-column"
+              >
+                <div class="list px-2">
+                  <ul class="ps-5 position-relative">
+                    <li class="mb-3 fw-bold position-relative finish">
+                      Got The Project
+                    </li>
+                    <li class="mb-3 fw-bold position-relative finish">
+                      Started The Project
+                    </li>
+                    <li class="mb-3 fw-bold position-relative finish">
+                      The Project About To Finish
+                    </li>
+                    <li class="mb-3 fw-bold position-relative current">
+                      Test The Project
+                    </li>
+                    <li class="mb-3 fw-bold position-relative">
+                      Finish The Project & Get Money
+                    </li>
+                  </ul>
+                </div>
+                <div class="launch-image d-none d-md-block">
+                  <img src="image/project.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end project progress -->
+          <!-- start reminders -->
+          <div
+            class="col col-xl-6 col-12 col-xxl-4 p-0 rounded-3 position-relative d-flex flex-column justify-content-center align-items-center mb-2"
+          >
+            <div
+              class="math bg-white remind text-center text-md-start"
+              style="width: 98%;"
+            >
+              <div class="text mb-3">
+                <h4 class="pt-3 px-3 pb-0 m-0 fw-bold">
+                  Reminders
+                </h4>
+              </div>
+              <!--  -->
+              <div class="box px-2 d-flex flex-column">
+                <div class="list px-2">
+                  <ul class="ps-4 position-relative">
+                    <li class="mb-3 position-relative ps-4 finish blue">
+                      <p class="m-0 fw-bold">Check My Tasks List</p>
+                      <span>28/09/2022 - 12:00am</span>
+                    </li>
+                    <li class="mb-3 position-relative ps-4 finish green">
+                      <p class="m-0 fw-bold">Check My Projects</p>
+                      <span>26/10/2022 - 12:00am</span>
+                    </li>
+                    <li class="mb-3 position-relative ps-4 current orange">
+                      <p class="m-0 fw-bold">Call All My Clients</p>
+                      <span>05/11/2022 - 12:00am</span>
+                    </li>
+                    <li class="mb-3 position-relative ps-4 red">
+                      <p class="m-0 fw-bold">Finish The Development Workshop</p>
+                      <span>20/12/2022 - 12:00am</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end reminders -->
+          <!-- start post -->
+          <div
+            class="col col-xl-6 col-12 col-xxl-4 p-0 rounded-3 position-relative d-flex flex-column justify-content-center align-items-center mb-2"
+          >
+            <div
+              class="math bg-white post text-center text-md-start"
+              style="width: 98%;"
+            >
+              <div class="text mb-3">
+                <h4 class="pt-3 px-3 pb-0 m-0 fw-bold">
+                  Latest Post
+                </h4>
+              </div>
+              <!--  -->
+              <div class="box px-2 d-flex flex-column">
+                <div
+                  class="user-info px-2 d-flex justify-content-center align-items-center gap-3 py-1"
+                >
+                  <img src="image/avatar.png" alt="" />
+                  <div class="text">
+                    <h5 class="m-0 fs-6 fw-bold">Ramez Karam</h5>
+                    <p class="m-0">About 3 Hours Ago</p>
+                  </div>
+                </div>
+                <div class="post-text border-top border-bottom p-2 m-0">
+                  <p class="fs-6 lh-base p-3 m-0 text-start">
+                    You Can Fool All Of The People Some Of The Time, And Some Of
+                    The People All Of The Time, But You Can't Fool All Of The
+                    People All Of The Time.
+                  </p>
+                </div>
+                <div
+                  class="reaction d-flex justify-content-between align-items-center py-3 px-2"
+                >
+                  <p class="like text-black-50 m-0">
+                    <i class="fa-regular fa-heart"></i> 1.8k
+                  </p>
+                  <p class="coment text-black-50 m-0">
+                    <i class="fa-regular fa-comments me-1"></i>500
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end post -->
+          <!-- start social media -->
+          <div
+            class="col col-xl-6 col-12 col-xxl-4 p-0 rounded-3 position-relative d-flex flex-column justify-content-center align-items-center mb-2"
+          >
+            <div
+              class="math bg-white social text-center text-md-start"
+              style="width: 98%;"
+            >
+              <div class="text mb-3">
+                <h4 class="pt-3 px-3 pb-0 m-0 fw-bold">
+                  Social Media Stats
+                </h4>
+              </div>
+              <!--  -->
+              <div class="box px-3 d-flex flex-column">
+                <div
+                  class="social-box pe-2 d-flex justify-content-center align-items-center gap-3 mb-2 twitter"
+                >
+                  <div
+                    class="icon text-center d-flex justify-content-center align-items-center"
+                  >
+                    <a href=""
+                      ><i class="fa-brands fa-twitter text-white"></i
+                    ></a>
+                  </div>
+                  <div
+                    class="text d-flex justify-content-between align-items-center"
+                  >
+                    <h5 class="m-0" style="color: #1da1f2;">90K Followers</h5>
+                    <button class="btn" style="background-color: #1da1f2;">
+                      <a href="" class="text-white">Follow</a>
+                    </button>
+                  </div>
+                </div>
+                <!--  -->
+                <div
+                  class="social-box pe-2 d-flex justify-content-center align-items-center gap-3 mb-2 facebook"
+                >
+                  <div
+                    class="icon text-center d-flex justify-content-center align-items-center"
+                    style="background-color: #1877f2;"
+                  >
+                  <a href="">  <i class="fa-brands fa-facebook-f text-white"></i></a>
+                  </div>
+                  <div
+                    class="text d-flex justify-content-between align-items-center"
+                  >
+                    <h5 class="m-0" style="color: #1da1f2;">2M Like</h5>
+                    <button class="btn btn-primary"><a href="" class="text-white">Like</button></a>
+                  </div>
+                </div>
+                <!--  -->
+                <!--  -->
+                <div
+                  class="social-box pe-2 d-flex justify-content-center align-items-center gap-3 mb-2 youtube"
+                >
+                  <div
+                    class="icon text-center d-flex justify-content-center align-items-center"
+                    style="background-color: #ff0000;"
+                  >
+                    <a href=""><i class="fa-brands fa-youtube text-white"></i></a>
+                  </div>
+                  <div
+                    class="text d-flex justify-content-between align-items-center"
+                  >
+                    <h5 class="m-0" style="color: #ff0000;">1M Subs</h5>
+                    <button
+                      class="btn text-white"
+                      style="background-color: #ff0000;"
+                    >
+                    <a href="" class="text-white">  Subscribe</a>
+                    </button>
+                  </div>
+                </div>
+                <!--  -->
+                <!--  -->
+                <div
+                  class="social-box pe-2 d-flex justify-content-center align-items-center gap-3 mb-2 linkedin"
+                >
+                  <div
+                    class="icon text-center d-flex justify-content-center align-items-center"
+                    style="background-color: #0077b5;"
+                  >
+                  <a href=""> <i class="fa-brands fa-linkedin text-white"></i></a> 
+                  </div>
+                  <div
+                    class="text d-flex justify-content-between align-items-center"
+                  >
+                    <h5 class="m-0" style="color: #0077b5;">70K Followers</h5>
+                    <button
+                      class="btn text-white"
+                      style="background-color: #0077b5;"
+                    >
+                     <a href="" class="text-white">Follow</a> 
+                    </button>
+                  </div>
+                </div>
+                <!--  -->
+              </div>
+            </div>
+          </div>
+          <!-- end social media -->
+          <!-- start table -->
+        </div>
+          <!-- end row -->
+          <!-- start row table -->
+
+
+
+      <!--  -->
+      </div>
+      
+    </div>
+   <!-- start table -->
+  
+      <div class="responsive-table px-4 pt-4">
+        <h3 class="mb-4 fw-bold d-flex justify-content-center align-items-center">Projects</h3>
+        <table>
+          <thead class="fw-bold">
+            <tr>
+              <td>Name</td>
+              <td>Finish Date</td>
+              <td>Client</td>
+              <td>Price</td>
+              <td>Team</td>
+              <td>Status</td>
+            </tr>
+          </thead>
+          <tbody>
+            <!--  -->
+            <tr>
+              <td>Ministry Wikipedia</td>
+              <td>10 May 2022</td>
+              <td>Ministry</td>
+              <td>$5300</td>
+              <td>
+                <img src="image/team-01.png" alt="">
+                <img src="image/team-02.png" alt="">
+                <img src="image/team-03.png" alt="">
+                <img src="image/team-05.png" alt="">
+              </td>
+              <td class="pending"><span>Pending</span></td>
+            </tr>
+            <!--  -->
+            <tr>
+              <td>Elzero Shop</td>
+              <td>12 Oct 2021</td>
+              <td>Elzero Company</td>
+              <td>$1500</td>
+              <td>
+                <img src="image/team-01.png" alt="">
+                <img src="image/team-02.png" alt="">
+                <img src="image/team-05.png" alt="">
+              </td>
+              <td class="pro"><span>In Progress</span> </td>
+            </tr>
+            <!--  -->
+            <tr>
+              <td>Bouba App</td>
+              <td>Bouba App</td>
+              <td>Bouba</td>
+              <td>$800</td>
+              <td>
+                <img src="image/team-01.png" alt="">
+                <img src="image/team-02.png" alt="">
+              </td>
+              <td class="completed"><span>Completed</span></td>
+            </tr>
+            <!--  -->
+            <tr>
+              <td>Mahmoud Website</td>
+              <td>22 May 2021</td>
+              <td>Mahmoud</td>
+              <td>$600</td>
+              <td>
+                <img src="image/team-02.png" alt="">
+                <img src="image/team-01.png" alt="">
+              </td>
+              <td class="completed"><span>Completed</span></td>
+            </tr>
+            <!--  -->
+            <tr>
+              <td>Sayed Website </td>
+              <td>24 May 2021  </td>
+              <td>Sayed</td>
+              <td>$300</td>
+              <td>
+                <img src="image/team-02.png" alt="">
+                <img src="image/team-01.png" alt="">
+                <img src="image/team-03.png" alt="">
+              </td>
+              <td class="rejected"><span>Rejected</span></td>
+            </tr>
+            <!--  -->
+            <tr>
+              <td>Arena Application  </td>
+              <td>01 Mar 2021 </td>
+              <td>Arena Company</td>
+              <td>$2600</td>
+              <td>
+                <img src="image/team-05.png" alt="">
+                <img src="image/team-01.png" alt="">
+                <img src="image/team-03.png" alt="">
+              </td>
+              <td class="completed"><span>Completed</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+ <!-- end table -->
+    
+
+    <!-- script files -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/dash.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

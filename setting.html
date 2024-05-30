@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Setting</title>
+    <link rel="icon" href="icons8-favicon-94.png" type="image/x-icon" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/dash.css" />
+    <!-- google foont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- aso -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page d-flex mb-0">
+      <!-- start dashboard  -->
+
+      <div class="dashboard">
+        <h3 class="text-center mb-md-5 pb-4 pt-3 position-relative">Dash</h3>
+        <div class="links">
+          <ul class="p-2 m-0">
+            <li class="p-2 ps-md-3">
+              <a href="index.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-regular fa-chart-bar fa-fw me-3 fs-6"></i
+                ><span>Dashboard</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="setting.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-solid fa-gear fa-fw me-3 fs-6"></i
+                ><span>Setting</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="profile.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-regular fa-user fa-fw me-3 fs-6"></i
+                ><span>Profile</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="projects.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-solid fa-diagram-project fa-fw me-3 fs-6"></i
+                ><span>Projects</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="courses.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-solid fa-graduation-cap fa-fw me-3 fs-6"></i
+                ><span>Courses</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="friends.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-regular fa-circle-user fa-fw me-3 fs-6"></i
+                ><span>Friends</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="files.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-regular fa-file fa-fw me-3 fs-6"></i
+                ><span>Files</span></a
+              >
+            </li>
+            <li class="p-2 ps-md-3">
+              <a href="plans.html" class="ps-1 p-md-2 rounded-2"
+                ><i class="fa-regular fa-credit-card fa-fw me-3 fs-6"></i
+                ><span>Plans</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- end dashboard  -->
+
+      <div class="content" style="background-color: #f1f5f9;">
+        <!-- 
+            
+            start header -->
+        <header
+          class="d-flex justify-content-between align-items-center p-3 bg-white"
+        >
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              class="ps-5 p-2 rounded-2"
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Type a Keyword"
+            />
+          </div>
+          <div class="icons d-flex align-items-center gap-2">
+            <div class="bell"><i class="fa-regular fa-bell fa-lg"></i></div>
+            <img src="image/avatar.png" alt="" />
+          </div>
+        </header>
+        <!-- end header -->
+        <!-- start headline -->
+        <div class="headline p-3 mb-3">
+          <h3 class="fw-bold fs-2 p-2">Settings</h3>
+        </div>
+        <!-- start row -->
+        <div class="row row-cols-3 mx-2">
+          <!--  -->
+          <div
+            class="col col-xl-6 col-12 col-xxl-4 p-0 rounded-3 position-relative d-flex flex-column justify-content-center align-items-center mb-2"
+          >
+            <div class="math bg-white rounded-3 p-4 set" style="width: 98%;">
+              <div class="control">
+                <h3 style="letter-spacing: -0.7px;">Site Control</h3>
+                <p>Control The Website If There Is Maintenance</p>
+              </div>
+              <div
+                class="website-control d-flex justify-content-between align-items-center mb-2"
+              >
+                <div class="text">
+                  <h6 class="m-0">Website Control</h6>
+                  <p>Open/Close Website And Type The Reason</p>
+                </div>
+                <div class="toggle-icon"></div>
+              </div>
+              <textarea
+                class="bg-white border p-2 text-black-50"
+                name="textarea"
+                id="textarea"
+                placeholder="close message content"
+              ></textarea>
+            </div>
+          </div>
+          <!--  -->
+          <div
+            class="col col-xl-6 col-12 col-xxl-4 p-0 rounded-3 position-relative d-flex flex-column justify-content-center align-items-center mb-2"
+          >
+            <div class="math bg-white rounded-3 p-4 set" style="width: 98%;">
+              <div class="control">
+                <h3 style="letter-spacing: -0.7px;">General Info</h3>
+                <p>General Information About Your Account</p>
+              </div>
+              <form action="" method="get">
+                <label for="fristName" class="mb-1 d-block">Frist Name</label>
+                <input
+                  type="text"
+                  name="fristName"
+                  id="fristName"
+                  placeholder="Frist Name"
+                  class="border bg-white p-2 rounded-2 mb-2"
+                />
+                <label for="lastName" class="mb-1 d-block">Last Name</label>
+                <input
+                  type="text"
+                  name="lastName"
+                  id="lastName"
+                  placeholder="Last Name"
+                  class="border bg-white p-2 rounded-2 mb-2"
+                />
+
+                <label for="email" class="d-block mb-1">Email</label>
+                <div
+                  class="email d-flex justify-content-between align-items-center"
+                >
+                  <input
+                    disabled
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="nn@nn.com"
+                    class="border p-2 rounded-2 mb-2"
+                    style="flex: 1; cursor: no-drop;"
+                    autocomplete="on"
+                  />
+                  <a href="#" id="change">change</a>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!--  -->
+          <div
+            class="col col-xl-6 col-12 col-xxl-4 p-0 rounded-3 position-relative d-flex flex-column justify-content-center align-items-center mb-2"
+          >
+            <div class="math bg-white rounded-3 p-4 set" style="width: 98%;">
+              <div class="control">
+                <h3 style="letter-spacing: -0.7px;">Security Info</h3>
+                <p>Security Information About Your Account</p>
+              </div>
+              <div
+                class="website-control d-flex justify-content-between align-items-center mb-2 border-bottom py-1"
+              >
+                <div class="text">
+                  <h6 class="m-0 mb-1">Password</h6>
+                  <p>Last Change On 25/10/2021</p>
+                </div>
+                <button class="btn btn-primary text-white">Change</button>
+              </div>
+              <div
+                class="website-control d-flex justify-content-between align-items-center mb-2 border-bottom py-1"
+              >
+                <div class="text">
+                  <h6 class="m-0 mb-1">Two-Factor Authentication</h6>
+                  <p>Enable/Disable The Feature</p>
+                </div>
+                <div class="toggle-icon"></div>
+              </div>
+              <div
+                class="website-control d-flex justify-content-between align-items-center mb-2 py-1"
+              >
+                <div class="text">
+                  <h6 class="m-0 mb-1">Devices</h6>
+                  <p>Check The Login Devices List</p>
+                </div>
+                <button
+                  class="btn rounded-3 px-2 py-1"
+                  style="background-color: var(--background-color);"
+                >
+                  <a href="">Devices</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <!--  -->
+          <div
+            class="col col-xl-6 col-12 col-xxl-4 p-0 rounded-3 position-relative d-flex flex-column justify-content-center align-items-center mb-2"
+          >
+            <div class="math bg-white rounded-3 p-4 set" style="width: 98%;">
+              <div class="control">
+                <h3 style="letter-spacing: -0.7px;">Social Info</h3>
+                <p>Social Media Information</p>
+              </div>
+              <!--  -->
+              <div
+                class="website-control d-flex justify-content-center align-items-center mb-2 py-1 social-media"
+              >
+                <i class="fa-brands fa-twitter border p-2"></i>
+
+                <input
+                  style="flex: 1;"
+                  class="border p-2"
+                  type="text"
+                  name="twitter"
+                  id="twitter"
+                  placeholder="Twitter User Name"
+                />
+              </div>
+              <!--  -->
+              <div
+                class="website-control d-flex justify-content-center align-items-center mb-2 py-1 social-media"
+              >
+                <i class="fa-brands fa-facebook border p-2"></i>
+
+                <input
+                  style="flex: 1;"
+                  class="border p-2"
+                  type="text"
+                  name="twitter"
+                  id="facebook"
+                  placeholder="Facebook User Name"
+                />
+              </div>
+              <!--  -->
+              <div
+                class="website-control d-flex justify-content-center align-items-center mb-2 py-1 social-media"
+              >
+                <i class="fa-brands fa-linkedin border p-2"></i>
+
+                <input
+                  style="flex: 1;"
+                  class="border p-2"
+                  type="text"
+                  name="twitter"
+                  id="linkedin"
+                  placeholder="Linkedin User Name"
+                />
+              </div>
+              <!--  -->
+              <div
+                class="website-control d-flex justify-content-center align-items-center mb-2 py-1 social-media"
+              >
+                <i class="fa-brands fa-youtube border p-2"></i>
+
+                <input
+                  style="flex: 1;"
+                  class="border p-2"
+                  type="text"
+                  name="twitter"
+                  id="youtube"
+                  placeholder="Youtube User Name"
+                />
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div
+            class="col col-xl-6 col-12 col-xxl-4 p-0 rounded-3 position-relative d-flex flex-column justify-content-center align-items-center mb-2"
+          >
+            <div
+              class="math bg-white rounded-3 p-4 set check"
+              style="width: 98%;"
+            >
+              <div class="control">
+                <h3 style="letter-spacing: -0.7px;">Widgets Control</h3>
+                <p>Show/Hide Widgets</p>
+              </div>
+              <!--  -->
+              <div class="widgets-control mb-2 py-1">
+                <input type="checkbox" id="draft" />
+                <label for="draft">Quick Draft</label>
+              </div>
+              <!--  -->
+              <div class="widgets-control mb-2 py-1">
+                <input type="checkbox" id="targets" />
+                <label for="targets">Yearly Targets </label>
+              </div>
+              <!--  -->
+              <div class="widgets-control mb-2 py-1">
+                <input type="checkbox" id="ticket" />
+                <label for="ticket">Tickets Statistics </label>
+              </div>
+              <!--  -->
+              <div class="widgets-control mb-2 py-1">
+                <input type="checkbox" id="news" />
+                <label for="news">Latest News </label>
+              </div>
+              <!--  -->
+              <div class="widgets-control mb-2 py-1">
+                <input type="checkbox" id="tasks" />
+                <label for="tasks">Latest Tasks</label>
+              </div>
+              <!--  -->
+              <div class="widgets-control mb-2 py-1">
+                <input type="checkbox" id="top-search" />
+                <label for="top-search">Top Search Items </label>
+              </div>
+
+              <!--  -->
+            </div>
+          </div>
+          <!--  -->
+          <div
+            class="col col-xl-6 col-12 col-xxl-4 p-0 rounded-3 position-relative d-flex flex-column justify-content-center align-items-center mb-2"
+          >
+            <div
+              class="math bg-white rounded-3 p-4 set back-radio"
+              style="width: 98%;"
+            >
+              <div class="control">
+                <h3 style="letter-spacing: -0.7px;">Backup Manager</h3>
+                <p>Control Backup Time And Location</p>
+              </div>
+
+              <!--  -->
+              <div class="backup-control mb-2 py-1">
+                <label for="daily" class="d-flex align-items-center"
+                  ><input type="radio" name="time" id="daily" />
+                  <span class="check-mark"></span>
+                  Daily</label
+                >
+              </div>
+              <!--  -->
+              <div class="backup-control mb-2 py-1">
+                <label for="weekly" class="d-flex align-items-center"
+                  ><input type="radio" name="time" id="weekly" />
+                  <span class="check-mark"></span>
+                  Weekly</label
+                >
+              </div>
+              <!--  -->
+              <div class="backup-control mb-2 py-1">
+                <label for="monthly" class="d-flex align-items-center"
+                  ><input type="radio" name="time" id="monthly" />
+                  <span class="check-mark"></span>
+                  Monthly</label
+                >
+              </div>
+              <div
+                class="store d-flex justify-content-center gap-2 align-items-center flex-row border-top pt-4 flex-column flex-sm-row"
+              >
+                <!--  -->
+                <div
+                  class="box d-flex justify-content-center align-items-center flex-column border p-3 px-4 rounded-3"
+                >
+                  <i class="fa-solid fa-server mb-3"></i>
+                  <h6 class="m-0">Megaman</h6>
+                </div>
+                <!--  -->
+                <div
+                  class="box d-flex justify-content-center align-items-center flex-column border p-3 px-4 rounded-3"
+                >
+                  <i class="fa-solid fa-server mb-3"></i>
+                  <h6 class="m-0">Zero</h6>
+                </div>
+                <!--  -->
+                <div
+                  class="box active d-flex justify-content-center align-items-center flex-column border p-3 px-4 rounded-3"
+                >
+                  <i class="fa-solid fa-server mb-3"></i>
+                  <h6 class="m-0">Sigma</h6>
+                </div>
+              </div>
+
+              <!--  -->
+            </div>
+          </div>
+
+          <!--  -->
+        </div>
+
+        <!-- end row -->
+      </div>
+    </div>
+
+    <!-- script files -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/dash.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
